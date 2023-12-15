@@ -1,9 +1,6 @@
 #include <iostream>
 
-#include "addition/addition.h"
-#include "multiplication/multiplication.h"
-#include "division/division.h"
-#include "subraction/subraction.h"
+#include "functionalities.h"
 
 int main(){
 
@@ -11,8 +8,6 @@ int main(){
     int choice;
 
     while(1){
-
-
            std::cout<<"****Enter Your Option****"<<std::endl;
            std::cout<<"1.Addition"<<std::endl;
            std::cout<<"2.Subraction"<<std::endl;

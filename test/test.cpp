@@ -1,9 +1,6 @@
 #include "gtest/gtest.h"
 
-#include "calculator/addition/addition.h"
-#include "calculator/subraction/subraction.h"
-#include "calculator/division/division.h"
-#include "calculator/multiplication/multiplication.h"
+#include "calculator/functionalities.h"
 
 TEST(additionTest, returnAddition){
 
