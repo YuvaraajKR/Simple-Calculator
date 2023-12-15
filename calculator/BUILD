@@ -5,10 +5,17 @@ cc_binary(
     name = "main",
     srcs = ["main.cpp"],
     deps = [
-             "//calculator/addition:addition",
-             "//calculator/subraction:subraction",
-             "//calculator/multiplication:multiplication",
-             "//calculator/division:division",
+            "//:functionalities" ,
     ],
 )
+
+cc_library(
+
+    name = "functionalities",
+    srcs = ["functionalities.cpp"],
+    hdrs = ["functionalities.h"],
+    visibility = ["//visibility:public"],
+    
+)
+
 
